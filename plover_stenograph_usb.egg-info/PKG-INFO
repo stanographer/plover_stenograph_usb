@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: plover-stenograph-usb
+Version: 0.0.1
+Summary: Implementation of Stenograph USB protocol for Diamanté and Luminex machines. Based on work by Ted Morin and Keith McCready.
+Home-page: https://github.com/stanographer/plover_stenograph_usb
+Author: Stanley Sakai
+Author-email: sakai.stanley@gmail.com
+License: GNU General Public License v2 or later (GPLv2+)
+Description-Content-Type: UNKNOWN
+Description: Plover Stenograph USB
+        =====================
+        
+        Purpose
+        -------
+        To implement support for Stenograph Diamante and Luminex machines over USB.
+        
+        Files
+        -----
+        * system.py - Contains key mappings and orthographic rules.
+        * stenograph.py - Thread-based monitoring of the Stenograph machine output.
+        * README.rst - Readme.
+        * setup.cfg - Python setup info.
+        
+        Installation
+        ------------
+        1. Make sure you have the Plover Plugin Manager (https://github.com/benoit-pierre/plover_plugins_manager) installed.
+        2. Pull down repo.
+        3. Run command `python3 -m pip install -e .` .
+        4. Run Plover and select "Stenograph USB" from the dropdown list.
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
