@@ -1,4 +1,3 @@
-
 from plover.system import english_stenotype
 
 KEYS = english_stenotype.KEYS
